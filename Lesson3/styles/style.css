@@ -50,8 +50,13 @@ body {
 
 .main_title {
     color: white;
-    font-family: ‘Graphik LCG’, sans-serif;
+    font-family: 'Graphik LCG', sans-serif;
     margin-bottom: 30px;
+    transition: all .3s ease-out;
+}
+
+.main_title:hover {
+    text-shadow: 0 0 35px #2f1ce4;
 }
 
 a {
@@ -71,6 +76,12 @@ a {
     color: white;
     background: none;
     border: 3px solid white;
+    transition: all .3s ease-out;
+}
+
+.know-more:hover {
+    color: black;
+    background-color: #fff;
 }
 
 .container {
