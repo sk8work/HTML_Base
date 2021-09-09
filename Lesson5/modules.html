@@ -5,96 +5,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalyze.css">
     <link rel="stylesheet" href="styles/style.css">
     <title>Document</title>
 </head>
 
-<body class="modules_body">
+<body class="modules">
     <div class="container">
 
 
-        <h2 class="h2_skillbox">Skillbox</h2>
-        <a class="return" href="program.html">Назад</a>
+      <a class="logo" href="index.html"><img src="img/logo.png" alt=""></a>
 
+      <div class="pagination">
+        <a href="index.html"><img src="img/leftArr.png" alt="">&nbsp;&nbsp;На главную</a>
+      </div>
 
-
-        <section class="section_modules">
-            <h2 class="h2_modules">Модули курса Веб-верстка</h2>
-            <ul class="section_modules_list">
-                <li class="section_modules_list_items">
-                    <div class="img_wrapper">
-                        <img class="img_modules" src="img/modules/intro.png" alt="">
-                    </div>
-                    <div class="wrapper_modules">
-                        <h3 class="h3_modules">Введение</h3>
-                        <ul class="wrapper_modules_list">
-                            <li class="wrapper_modules_list_items">Как работают сайты. Верстка </li>
-                            <li class="wrapper_modules_list_items">Возможности HTML, CSS, JS</li>
-                            <li class="wrapper_modules_list_items">Редактор кода. Codepen</li>
-                            <li class="wrapper_modules_list_items">Работа с DevTools</li>
-                        </ul>
-                        <p>01</p>
-                    </div>
-
-                </li>
-                <li class="section_modules_list_items">
-                    <div class="img_wrapper">
-                        <img class="img_modules" src="img/modules/basehtml.png" alt="">
-                    </div>
-                    <div class="wrapper_modules">
-                        <h3 class="h3_modules">Базовый HTML</h3>
-                        <ul class="wrapper_modules_list">
-                            <li class="wrapper_modules_list_items">Базовые теги</li>
-                            <li class="wrapper_modules_list_items">Теги картинок и ссылок</li>
-                            <li class="wrapper_modules_list_items">Теги таблиц</li>
-                            <li class="wrapper_modules_list_items">Служебные теги</li>
-                            <li class="wrapper_modules_list_items">Кодстайл HTML</li>
-                        </ul>
-                        <p>02</p>
-                    </div>
-
-                </li>
-                <li class="section_modules_list_items">
-                    <div class="img_wrapper">
-                        <img class="img_modules" src="img/modules/basecss.png" alt="">
-                    </div>
-                    <div class="wrapper_modules">
-                        <h3 class="h3_modules">Базовый CSS</h3>
-                        <ul class="wrapper_modules_list">
-                            <li class="wrapper_modules_list_items">Подключение CSS</li>
-                            <li class="wrapper_modules_list_items">Вес селектора</li>
-                            <li class="wrapper_modules_list_items">Свойство display</li>
-                            <li class="wrapper_modules_list_items">Блочная модель и позиционирование</li>
-                            <li class="wrapper_modules_list_items">Кодстайл CSS</li>
-                        </ul>
-                        <p>03</p>
-                    </div>
-
-                </li>
-                <li class="section_modules_list_items">
-                    <div class="img_wrapper">
-                        <img class="img_modules" src="img/modules/maket.png" alt="">
-                    </div>
-                    <div class="wrapper_modules">
-                        <h3 class="h3_modules">Работа с макетом</h3>
-                        <ul class="wrapper_modules_list">
-                            <li class="wrapper_modules_list_items">Про форматы изображений</li>
-                            <li class="wrapper_modules_list_items">Работа с макетом в Photoshop</li>
-                            <li class="wrapper_modules_list_items">Работа с макетом в Figma</li>
-                        </ul>
-                        <p>04</p>
-                    </div>
-
-                </li>
-            </ul>
-            <div class="clear"></div>
-
-            <div class="flex">
-                <a href="" class="btn_show_more">Показать еще</a>
+      <section class="content">
+        <h2 class="h2 content__header">Модули курса Веб-верстка</h2>
+        <ul class="galery__list">
+          <li class="galery__item intro">
+            <div class="galery__item-top"></div>
+            <div class="galery__item-body">
+              <h3 class="h3 galery__item-header">Введение</h3>
+              <ul class="galery__description__list">
+                <li class="galery__description__item">Как работают сайты. Верстка</li>
+                <li class="galery__description__item">Возможности HTML, CSS, JS</li>
+                <li class="galery__description__item">Редактор кода. Codepen</li>
+                <li class="galery__description__item">Работа с DevTools</li>
+              </ul>
             </div>
+            <p class="galery__number">1</p>
+          </li>
+
+          <li class="galery__item base-html">
+            <div class="galery__item-top"></div>
+            <div class="galery__item-body">
+              <h3 class="h3 galery__item-header">Базовый HTML</h3>
+              <ul class="galery__description__list">
+                <li class="galery__description__item">Базовые теги</li>
+                <li class="galery__description__item">Теги картинок и ссылок</li>
+                <li class="galery__description__item">Теги таблиц</li>
+                <li class="galery__description__item">Служебные теги</li>
+                <li class="galery__description__item">Кодстайл HTML</li>
+              </ul>
+            </div>
+            <p class="galery__number">2</p>
+          </li>
+
+          <li class="galery__item base-css">
+            <div class="galery__item-top"></div>
+            <div class="galery__item-body">
+              <h3 class="h3 galery__item-header">Базовый CSS</h3>
+              <ul class="galery__description__list">
+                <li class="galery__description__item">Подключение CSS</li>
+                <li class="galery__description__item">Вес селектора</li>
+                <li class="galery__description__item">Свойство display</li>
+                <li class="galery__description__item">Блочная модель и позиционирование</li>
+                <li class="galery__description__item">Кодстайл CSS</li>
+              </ul>
+            </div>
+            <p class="galery__number">3</p>
+          </li>
+
+          <li class="galery__item design">
+            <div class="galery__item-top"></div>
+            <div class="galery__item-body">
+              <h3 class="h3 galery__item-header">Работа с макетом</h3>
+              <ul class="galery__description__list">
+                <li class="galery__description__item">Про форматы изображений</li>
+                <li class="galery__description__item">Работа с макетом в Photoshop</li>
+                <li class="galery__description__item">Работа с макетом в Figma</li>
+              </ul>
+            </div>
+            <p class="galery__number">4</p>
+          </li>
+
+        </ul>
+
+        <a class="btn show-more" href="#">Показать еще</a>
+      </section>
 
 
-        </section>
+
+
     </div>
 </body>
 
