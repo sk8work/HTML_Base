@@ -7,7 +7,7 @@
 
 body {
     font-family: Muller, sans-serif;
-    background: #e5e5e5;
+    background: #f1f1f1;
 }
 
 a {
@@ -83,6 +83,13 @@ section {
 }
 .specials__item:hover .specials__item-link svg path, .services__item:hover .services__item-link svg path{
     stroke: #A47312;
+}
+
+.main-btn {
+    padding: 13px 20px;
+    font-size: 16px;
+    line-height: 16px;
+    cursor: pointer;
 }
 
 /************************************/
@@ -191,12 +198,7 @@ section {
     display: flex;
     justify-content: space-between;
 }
-.buttons .main-btn {
-    padding: 13px 20px;
-    font-size: 16px;
-    line-height: 16px;
-    cursor: pointer;
-}
+
 .buttons .main-btn:last-child {
     margin-left: 40px;
 }
@@ -349,9 +351,7 @@ section {
     overflow: hidden;
     background: white;
     padding: 40px 40px 40px 45px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+
 }
 
 .advantages__pic {
@@ -372,13 +372,141 @@ section {
 /************************************/
 /**********  PLACES STYLES  *********/
 /************************************/
+.places__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 23px;
+}
+.places__item {
+    background: white;
+    overflow: hidden;
+}
+
+.places__item__link {
+    outline: 1px solid red;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.places__item:last-child {
+    background: url("../img/places/place-big.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.places__item:last-child .places__item__link {
+    display: flex;
+    align-items: flex-end;
+}
+.places__item:last-child .places__item__more {
+    padding: 45px 45px 27px 45px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.places__item__img {
+    width: 100%;
+    height: 217px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.places__item__img-1 {
+    background: url("../img/places/place-1.jpg");
+}
+.places__item__img-2 {
+    background: url("../img/places/place-2.jpg");
+}
+.places__item__img-3 {
+    background: url("../img/places/place-3.jpg");
+}
+.places__item__img-4 {
+    background: url("../img/places/place-4.jpg");
+}
+.places__item__img-5 {
+    background: url("../img/places/place-5.jpg");
+}
+.places__item__img-6 {
+    background: url("../img/places/place-6.jpg");
+}
+.places__item__img-7 {
+    background: url("../img/places/place-7.jpg");
+}
+.places__item__img-8 {
+    background: url("../img/places/place-8.jpg");
+}
+
+.places__item__description {
+    padding: 35px 45px 40px 45px;
+}
+
+.places__item__price .price-prefix {
+    font-size: 16px;
+    line-height: 16px;
+    color: #999;
+}
+
+.places__item__price .price{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.places__item__price .price-per{
+    font-size: 16px;
+    line-height: 16px;
+    color: black;
+}
+
+.places__item__hotel-name {
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: black;
+}
+
+.places__item__place {
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #999;
+}
+
+.places__list .main-btn {
+    margin-top: 20px;
+}
 
 
 /************************************/
 /********  WANT_TOUR STYLES  ********/
 /************************************/
 
+.want-tour__wrapper {
+    padding-top: 38px;
+    padding-bottom: 71px;
+    background: #e9e9e9;
+}
 
+.want-tour__form {
+    max-width: 100%;
+    min-height: 100px;
+    margin-left: 45px;
+    margin-right: 45px;
+    background: white;
+}
 
 /************************************/
 /**********  PLACES STYLES  *********/
